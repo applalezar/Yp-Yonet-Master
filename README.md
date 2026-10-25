@@ -1,25 +1,25 @@
 <p align="center">
-  <img src="doc/assets/banner.jpg" alt="Paperclip is the app people use to manage AI agents for work." width="720" />
+  <img src="doc/assets/banner.jpg" alt="Paperclip, çalışanlarda AI ajanlarını yönetmek için insanların kullandığı uygulamadır." width="720" />
 </p>
 
 <p align="center">
-  <a href="#quickstart"><strong>Quickstart</strong></a> &middot;
-  <a href="https://docs.paperclip.ing"><strong>Docs</strong></a> &middot;
+  <a href="#quickstart"><strong>Hızlı Başlangıç</strong></a> &middot;
+  <a href="https://docs.paperclip.ing"><strong>Dokümanlar</strong></a> &middot;
   <a href="https://github.com/paperclipai/paperclip"><strong>GitHub</strong></a> &middot;
   <a href="https://discord.gg/m4HZY7xNG3"><strong>Discord</strong></a> &middot;
   <a href="https://x.com/papercliping"><strong>Twitter</strong></a> &middot;
-  <a href="https://paperclip.ing"><strong>Website</strong></a>
+  <a href="https://paperclip.ing"><strong>Web Sitesi</strong></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/paperclipai/paperclip/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a>
-  <a href="https://github.com/paperclipai/paperclip/stargazers"><img src="https://img.shields.io/github/stars/paperclipai/paperclip?style=flat" alt="Stars" /></a>
+  <a href="https://github.com/paperclipai/paperclip/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT Lisansı" /></a>
+  <a href="https://github.com/paperclipai/paperclip/stargazers"><img src="https://img.shields.io/github/stars/paperclipai/paperclip?style=flat" alt="Yıldızlar" /></a>
   <a href="https://discord.gg/m4HZY7xNG3"><img src="https://img.shields.io/badge/discord-join-7289da" alt="Discord" /></a>
-  <a href="https://superagent.sh"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.superagent.sh/api/badge/paperclipai/paperclip/shield.svg?theme=dark&accent=teal&variant=scanned" /><img src="https://www.superagent.sh/api/badge/paperclipai/paperclip/shield.svg?theme=light&accent=teal&variant=scanned" alt="Security posture verified by Superagent" /></picture></a>
+  <a href="https://superagent.sh"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.superagent.sh/api/badge/paperclipai/paperclip/shield.svg?theme=dark&accent=teal&variant=scanned" /><img src="https://www.superagent.sh/api/badge/paperclipai/paperclip/shield.svg?theme=light&accent=teal&variant=scanned" alt="Superagent tarafından doğrulanmış güvenlik durumu" /></picture></a>
 </p>
 
 <p align="center">
-  <a href="https://www.star-history.com/paperclipai/paperclip"><img src="https://api.star-history.com/badge?repo=paperclipai/paperclip" alt="Star History Rank" /></a>
+  <a href="https://www.star-history.com/paperclipai/paperclip"><img src="https://api.star-history.com/badge?repo=paperclipai/paperclip" alt="Yıldız Geçmişi Sıralaması" /></a>
 </p>
 
 <br/>
@@ -29,300 +29,301 @@
 </div>
 
 <p align="center">
-  <a href="https://paperclip.ing/waitlist/"><strong>Sign up for the Paperclip Cloud waitlist →</strong></a>
+  <a href="https://paperclip.ing/waitlist/"><strong>Paperclip Cloud bekleme listesine katıl →</strong></a>
 </p>
 
 <br/>
 
-# Paperclip is the app people use to manage AI agents for work.
+# Paperclip, insanların iş için AI ajanlarını yönetmek için kullandığı uygulamadır.
 
-Open-source orchestration for teams of AI agents.
+Takımlar için açık kaynaklı ajan orkestrasyonu.
 
-**If OpenClaw is an _employee_, Paperclip is the _company_.**
+**OpenClaw bir _çalışan_ ise, Paperclip bir _şirkettir_.**
 
-Paperclip is a Node.js server and React UI that orchestrates a team of AI agents to run a business. Bring your own agents, assign goals, and track work and costs from one dashboard. Choose models and harnesses per agent while keeping your team's tasks, skills, permissions, and history in one place.
+Paperclip, iş yapabilen bir AI ajan takımı düzenlemek için kullanılan Node.js sunucusu ve React arayüzüdür. Kendi ajanlarınızı getirin, hedefler atayın ve tüm işi ve maliyetleri tek bir pano üzerinden izleyin. Her ajan için model ve çalışma ortamını seçin; ekibin görevlerini, yeteneklerini, izinlerini ve geçmişini tek bir yerde tutun.
 
-It looks like a task manager. Under the hood: org charts, budgets, governance, goal alignment, and agent coordination.
+Bir görev yöneticisi gibi görünür. Arka planda ise: kuruluş şemaları, bütçeler, yönetim, hedef uyumu ve ajan koordinasyonu yer alır.
 
-**Manage business goals, not pull requests.**
+**İş hedeflerini yönetin, PR'ları değil.**
 
-|        | Step            | Example                                                            |
+|        | Adım            | Örnek                                                            |
 | ------ | --------------- | ------------------------------------------------------------------ |
-| **01** | Define the goal | _"Build the #1 AI note-taking app to $1M MRR."_                    |
-| **02** | Hire the team   | CEO, CTO, engineers, designers, marketers — any bot, any provider. |
-| **03** | Approve and run | Review strategy. Set budgets. Hit go. Monitor from the dashboard.  |
+| **01** | Hedefi tanımla | _"1M$ MRR'ye ulaşan #1 AI not alma uygulamasını kur." _                    |
+| **02** | Ekibi işe al   | CEO, CTO, mühendisler, tasarımcılar, pazarlamacılar — her bot, her sağlayıcı. |
+| **03** | Onayla ve çalıştır | Stratejiyi gözden geçir. Bütçeleri belirle. Başlat. Panodan izlemeye başla.  |
 
 <br/>
 
 <div align="center">
 <table>
   <tr>
-    <td align="center" rowspan="2"><strong>Works<br/>with</strong></td>
+    <td align="center" rowspan="2"><strong>Şununla<br/>çalışır</strong></td>
     <td align="center" valign="top"><img src="doc/assets/logos/openclaw.svg" width="32" height="32" alt="OpenClaw" /><br/><sub>OpenClaw</sub></td>
     <td align="center" valign="top"><img src="doc/assets/logos/claude.svg" width="32" height="32" alt="Claude Code" /><br/><sub>Claude Code</sub></td>
     <td align="center" valign="top"><img src="ui/public/brands/codex-color.svg" width="32" height="32" alt="Codex" /><br/><sub>Codex</sub></td>
-    <td align="center" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="ui/public/brands/adapters/cursor-dark.svg" /><img src="ui/public/brands/adapters/cursor.svg" width="32" height="32" alt="Cursor and Cursor Cloud" /></picture><br/><sub>Cursor<br/>+ Cloud</sub></td>
+    <td align="center" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="ui/public/brands/adapters/cursor-dark.svg" /><img src="ui/public/brands/adapters/cursor.svg" width="32" height="32" alt="Cursor ve Cursor Cloud" /></picture><br/><sub>Cursor<br/>+ Cloud</sub></td>
     <td align="center" valign="top"><img src="ui/public/brands/adapters/gemini-color.svg" width="32" height="32" alt="Gemini CLI" /><br/><sub>Gemini CLI</sub></td>
   </tr>
   <tr>
     <td align="center" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="ui/public/brands/opencode-logo-dark-square.svg" /><img src="ui/public/brands/opencode-logo-light-square.svg" width="32" height="32" alt="OpenCode" /></picture><br/><sub>OpenCode</sub></td>
     <td align="center" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="ui/public/brands/adapters/pi-dark.svg" /><img src="ui/public/brands/adapters/pi.svg" width="32" height="32" alt="Pi" /></picture><br/><sub>Pi</sub></td>
-    <td align="center" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="ui/public/brands/adapters/hermesagent-dark.svg" /><img src="ui/public/brands/adapters/hermesagent.svg" width="32" height="32" alt="Hermes and Hermes Gateway" /></picture><br/><sub>Hermes<br/>+ Gateway</sub></td>
+    <td align="center" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="ui/public/brands/adapters/hermesagent-dark.svg" /><img src="ui/public/brands/adapters/hermesagent.svg" width="32" height="32" alt="Hermes ve Hermes Gateway" /></picture><br/><sub>Hermes<br/>+ Gateway</sub></td>
     <td align="center" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="ui/public/brands/adapters/grok-dark.svg" /><img src="ui/public/brands/adapters/grok.svg" width="32" height="32" alt="Grok Build" /></picture><br/><sub>Grok Build</sub></td>
     <td align="center" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="ui/public/brands/adapters/kimi-color.svg" /><img src="ui/public/brands/adapters/kimi-color-light.svg" width="32" height="32" alt="Kimi Code" /></picture><br/><sub>Kimi Code</sub></td>
   </tr>
 </table>
 
-<em>If it can receive a heartbeat, it's hired.</em>
+<em>Bir kalp atışı alabiliyorsa, işe alınmıştır.</em>
 
 </div>
 
-Custom processes, HTTP endpoints, and external adapter packages extend the roster. See the [adapter overview](https://docs.paperclip.ing/reference/adapters/overview/) for setup and capabilities.
+Özel süreçler, HTTP uç noktaları ve harici bağdaştırıcı paketleri kadroya yeni üyeler ekler. Kurulum ve yetenekler için [bağdaştırıcı genel bakışına](https://docs.paperclip.ing/reference/adapters/overview/) bakın.
 
 <br/>
 
-## Paperclip is right for you if
+## Paperclip sizin için doğruysa
 
-- ✅ You want to build **autonomous AI organizations**
-- ✅ You **coordinate many different agents** (OpenClaw, Codex, Claude, Cursor) toward a common goal
-- ✅ You have **20 simultaneous Claude Code terminals** open and lose track of what everyone is doing
-- ✅ You want agents running **autonomously 24/7**, but still want to audit work and chime in when needed
-- ✅ You want to **monitor costs** and enforce budgets
-- ✅ You want a process for managing agents that **feels like using a task manager**
-- ✅ You want to manage your autonomous businesses **from your phone**
+- ✅ **Otonom AI organizasyonları** kurmak istiyorsanız
+- ✅ Birden fazla farklı ajanın (OpenClaw, Codex, Claude, Cursor) ortak bir hedef için **koordinasyonunu** istiyorsanız
+- ✅ Aynı anda **20 adet Claude Code terminali** açıp herkesin ne yaptığını takip etmekte zorlanıyorsanız
+- ✅ Ajanların **24/7 otonom şekilde** çalışmasını istiyorsunuz ama yine de işleri denetlemek ve gerektiğinde müdahale etmek istiyorsanız
+- ✅ **Maliyetleri izlemek** ve bütçeleri uygulamak istiyorsanız
+- ✅ Ajanları yönetmek için **görev yöneticisi gibi hisseden** bir süreç istiyorsanız
+- ✅ Otonom işlerinizi **telefonunuzdan** yönetmek istiyorsanız
 
 <br/>
 
-## The four pillars
+## Dört temel unsur
 
-Four things have to work for an organization of AI agents to actually produce: the tasks, the org, the training, and the infrastructure. Paperclip is built around exactly those four pillars.
+Bir AI ajan organizasyonunun gerçekten üretim yapması için dört şeyin çalışması gerekir: görevler, organizasyon, eğitim ve altyapı. Paperclip tam olarak bu dört temel üzerine kurulmuştur.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paperclipai/paperclip/1ec33ffd8b597f7e36aac3e2fbb4665b8c42dc3c/doc/assets/four-pillars-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/paperclipai/paperclip/1ec33ffd8b597f7e36aac3e2fbb4665b8c42dc3c/doc/assets/four-pillars-light.png">
-  <img src="https://raw.githubusercontent.com/paperclipai/paperclip/1ec33ffd8b597f7e36aac3e2fbb4665b8c42dc3c/doc/assets/four-pillars-light.png" alt="The four pillars of Paperclip">
+  <img src="https://raw.githubusercontent.com/paperclipai/paperclip/1ec33ffd8b597f7e36aac3e2fbb4665b8c42dc3c/doc/assets/four-pillars-light.png" alt="Paperclip'in dört temel unsuru">
 </picture>
 
-| Pillar | Built for | What it covers |
+| Temel unsur | Kimler için | Ne kapsar |
 | --- | --- | --- |
-| **Agentic Task Manager** — Declare intent. Agents work. You verify the output. | Everyone, daily | Tasks, approvals & review gates · proactive agent coworkers · auditable routines & workflows · verify from diffs, screenshots & tests |
-| **Org Chart for Agents** — Roles, permissions & boundaries for humans and agents. | Managers | Mixed human + agent org chart · responsibilities, delegation, specialization · governance: who can do what · scoped secrets & company boundaries · connection permissions & responsible-user identities |
-| **Agent Employee Training** — Design, train & evaluate your AI employees. | Enablers | Skill Studio & shared org-wide skills · evals & saved test runs · active learning loops & quality metrics · performance reviews for agents · saved test inputs · skill version history & restore · reusable team templates |
-| **Agentic OS** — The infrastructure that makes the work run. | IT & platform | Cross-provider runtime: any model, any agent · sandboxing, integrations & MCP servers · SSO, GRC, RBAC & cost controls · data privacy, internal trace collection, compounding data value · personal & shared app connections · run history & opt-in tracing |
+| **Ajanik Görev Yöneticisi** — Niyet beyan edilir. Ajanlar çalışır. Siz çıktıyı doğrularsınız. | Herkes, günlük iş | Görevler, onaylar ve inceleme kapıları · proaktif ajan iş arkadaşları · denetlenebilir rutinler ve iş akışları · diff, ekran görüntüsü ve testlerden doğrulama |
+| **Ajanlar için Organizasyon Şeması** — Roller, izinler ve sınırlar; insanlar ve ajanlar için. | Yöneticiler | Karma insan + ajan organizasyon şeması · sorumluluklar, yetkilendirme, uzmanlaşma · yönetişim: kimin ne yapabileceği · kapsamlı sırlar ve şirket sınırları · bağlantı izinleri ve sorumlu kullanıcı kimlikleri |
+| **Ajan Çalışan Eğitimi** — AI çalışanlarınızı tasarlayın, eğitin ve değerlendirin. | Güçlendiriciler | Beceri Stüdyosu ve kurumsal beceri paylaşımı · değerlendirmeler ve kayıtlı test çalışmaları · aktif öğrenme döngüleri ve kalite metrikleri · ajan performans incelemeleri · kayıtlı test girişleri · beceri sürüm geçmişi ve geri yükleme · yeniden kullanılabilir ekip şablonları |
+| **Ajanik İşletim Sistemi** — Çalışan işi çalıştıran altyapı. | BT ve platform | Çapraz sağlayıcı çalışma zamanı: her model, her ajan · sanallaştırma, entegrasyonlar ve MCP sunucuları · SSO, GRC, RBAC ve maliyet kontrolleri · veri gizliliği, dahili iz toplama, biriken veri değeri · kişisel ve paylaşılan uygulama bağlantıları · çalışma geçmişi ve isteğe bağlı izleme |
 
 <br/>
 
-## Features
+## Özellikler
 
 <table>
 <tr>
 <td align="center" width="33%">
-<h3>🔌 Bring Your Own Agent</h3>
-Any agent, any runtime, one org chart. If it can receive a heartbeat, it's hired.
+<h3>🔌 Kendi Ajanınızı Getirin</h3>
+Her ajan, her çalışma zamanı, tek bir organizasyon şeması. Bir kalp atışı alabiliyorsa, işe alınır.
 </td>
 <td align="center" width="33%">
-<h3>🎯 Goal Alignment</h3>
-Link tasks and projects to your organization goals. Agents receive the goal context behind their work.
+<h3>🎯 Hedef Uyumu</h3>
+Görevleri ve projeleri kuruluş hedeflerinize bağlayın. Ajanlar yaptıkları işin arkasındaki hedef bağlamını alır.
 </td>
 <td align="center" width="33%">
-<h3>💓 Heartbeats</h3>
-Agents wake for assigned work, follow-up messages, or configured schedules. Delegation flows up and down the org chart.
+<h3>💓 Kalp Atışları</h3>
+Ajanlar atanmış iş, takip mesajları veya yapılandırılmış zamanlamalar için uyanır. Yetkilendirme akışı organizasyon şeması boyunca yukarı ve aşağı akar.
 </td>
 </tr>
 <tr>
 <td align="center">
-<h3>💰 Cost Control</h3>
-Company, agent, and project <a href="https://docs.paperclip.ing/guides/day-to-day/costs/">budgets</a>. Track reported spend, get threshold alerts, and pause work at configured limits.
+<h3>💰 Maliyet Kontrolü</h3>
+Şirket, ajan ve proje <a href="https://docs.paperclip.ing/guides/day-to-day/costs/">bütçeleri</a>. Harcamaları takip edin, eşik uyarıları alın ve yapılandırılmış limitlerde çalışmayı durdurun.
 </td>
 <td align="center">
-<h3>🏢 Multi-Organization</h3>
-One deployment, many organizations. Separate tasks, agents, permissions, and activity histories for each.
+<h3>🏢 Çoklu Kuruluş</h3>
+Tek dağıtım, çoklu organizasyon. Her biri için görevler, ajanlar, izinler ve etkinlik geçmişleri ayrı tutulur.
 </td>
 <td align="center">
-<h3>🎫 Task Threads</h3>
-Keep conversations, plans, blockers, files, and run history attached to the work. Assign tasks to agents or people.
-</td>
-</tr>
-<tr>
-<td align="center">
-<h3>🛡️ Governance</h3>
-Configure <a href="https://docs.paperclip.ing/guides/day-to-day/approvals/">review and approval stages</a>, approve hires, and pause, reassign, or stop work when needed.
-</td>
-<td align="center">
-<h3>📊 Org Chart</h3>
-Hierarchies, roles, reporting lines. Your agents have a boss, a title, and a job description.
-</td>
-<td align="center">
-<h3>📱 Mobile Ready</h3>
-Monitor and manage your autonomous businesses from anywhere.
+<h3>🎫 Görev Konuları</h3>
+Konuşmalar, planlar, engeller, dosyalar ve çalışma geçmişi işin yanında tutulur. Görevleri ajanlara veya kişilere atayın.
 </td>
 </tr>
 <tr>
 <td align="center">
-<h3>🔗 Apps & Connections</h3>
-<a href="https://docs.paperclip.ing/connectors/">Connect services</a> such as GitHub, Notion, and Railway, or your own MCP server. Set gateway actions to Allowed, Ask first, or Off.
+<h3>🛡️ Yönetişim</h3>
+<a href="https://docs.paperclip.ing/guides/day-to-day/approvals/">İnceleme ve onay aşamalarını</a> yapılandırın, işe alım onayı verin ve gerektiğinde işi duraklatın, yeniden atayın veya durdurun.
 </td>
 <td align="center">
-<h3>👥 Shared Agents, Personal Accounts</h3>
-Choose <a href="https://docs.paperclip.ing/connectors/access-model/">who can use a connection and which agents can access it</a>. Managed GitHub operations can use the account of the person directing the work.
+<h3>📊 Organizasyon Şeması</h3>
+Hiyerarşiler, roller, raporlama hatları. Ajanlarınızın bir patronu, unvanı ve iş tanımı vardır.
 </td>
 <td align="center">
-<h3>🧠 Skills & Skill Studio</h3>
-Install or write <a href="https://docs.paperclip.ing/guides/org/skills/">shared skills</a>, test them with saved inputs, inspect results, and restore earlier versions.
+<h3>📱 Mobil Hazır</h3>
+Otonom işlerinizi istediğiniz yerden izleyin ve yönetin.
 </td>
 </tr>
 <tr>
 <td align="center">
-<h3>📅 Scheduled Routines</h3>
-Run <a href="https://docs.paperclip.ing/guides/projects-workflow/routines/">recurring work</a> on a schedule or trigger it through an API or webhook. Each run has a task, an owner, and a history.
+<h3>🔗 Uygulamalar ve Bağlantılar</h3>
+GitHub, Notion ve Railway gibi hizmetleri veya kendi MCP sunucunuzu <a href="https://docs.paperclip.ing/connectors/">bağlayın</a>. Ağ geçidi eylemlerini İzinli, Önce Sor, veya Kapalı olarak ayarlayın.
 </td>
 <td align="center">
-<h3>📎 Artifacts & Feedback</h3>
-Find the <a href="https://docs.paperclip.ing/guides/day-to-day/artifacts/">files and documents agents produce</a>. Preview supported formats and leave comments on specific passages in documents.
+<h3>👥 Paylaşılan Ajanlar, Kişisel Hesaplar</h3>
+Hangi kullanıcının bir bağlantıyı kullanabileceğini ve hangi ajanların erişebileceğini seçin. <a href="https://docs.paperclip.ing/connectors/access-model/">Yönetilen GitHub operasyonları</a>, işi yöneten kişinin hesabını kullanabilir.
 </td>
 <td align="center">
-<h3>📦 Ready-Made Teams</h3>
-Preview and install <a href="https://docs.paperclip.ing/guides/org/team-catalog/">teams</a> with roles, skills, projects, and routines. Choose their runtimes and make the setup your own.
+<h3>🧠 Beceriler ve Beceri Stüdyosu</h3>
+Ortak <a href="https://docs.paperclip.ing/guides/org/skills/">becerileri</a> kurun veya yazın, kayıtlı girdilerle test edin, sonuçları inceleyin ve önceki sürümlere geri dönün.
+</td>
+</tr>
+<tr>
+<td align="center">
+<h3>📅 Zamanlanmış Rutinler</h3>
+Belirli bir zamanlama ile veya API veya webhook aracılığıyla <a href="https://docs.paperclip.ing/guides/projects-workflow/routines/">tekrarlayan işler</a> çalıştırın. Her çalıştırma bir görev, bir sahibi ve bir geçmişe sahiptir.
+</td>
+<td align="center">
+<h3>📎 Ürünler ve Geri Bildirim</h3>
+Ajanların ürettiği <a href="https://docs.paperclip.ing/guides/day-to-day/artifacts/">dosya ve belgeleri</a> bulun. Desteklenen formatları önizleyin ve belgelerdeki belirli bölümlere yorum bırakın.
+</td>
+<td align="center">
+<h3>📦 Hazır Ekipler</h3>
+Roller, beceriler, projeler ve rutinlerle <a href="https://docs.paperclip.ing/guides/org/team-catalog/">ekipleri</a> önizleyin ve kurun. Çalışma zamanlarını seçin ve kurulumunuzu kendinize göre düzenleyin.
 </td>
 </tr>
 </table>
 
-Experimental **Agent Chat** and **chat/email connectors** add conversations with agents in Paperclip and through configured services such as Slack, Discord, Telegram, and AgentMail. Enable the relevant instance settings to try them.
+Deneysel **Ajan Sohbeti** ve **sohbet/e-posta bağlayıcıları**, Paperclip içinde ajanlarla konuşmalar ve Slack, Discord, Telegram ve AgentMail gibi yapılandırılmış servisler üzerinden iletişim ekler. Denemek için ilgili örnek ayarları etkinleştirin.
 
 <br/>
 
-## Problems Paperclip solves
+## Paperclip'in çözdüğü problemler
 
-| Without Paperclip                                                                                                                     | With Paperclip                                                                                                                         |
+| Paperclip olmadan                                                                                                                     | Paperclip ile                                                                                                                         |
 | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| ❌ You have 20 Claude Code tabs open and can't track which one does what. On reboot you lose everything.                              | ✅ Tasks are ticket-based, conversations are threaded, sessions persist across reboots.                                                |
-| ❌ You manually gather context from several places to remind your bot what you're actually doing.                                     | ✅ Context flows from the task up through the project and company goals — your agent always knows what to do and why.                  |
-| ❌ Folders of agent configs are disorganized and you're re-inventing task management, communication, and coordination between agents. | ✅ Paperclip gives you org charts, ticketing, delegation, and governance out of the box — so you run a company, not a pile of scripts. |
-| ❌ Runaway loops waste hundreds of dollars of tokens and max your quota before you even know what happened.                           | ✅ Spend tracking, budget alerts, and automatic pauses help you control the cost of ongoing work.                                       |
-| ❌ You have recurring jobs (customer support, social, reports) and have to remember to manually kick them off.                        | ✅ Routines create assigned tasks on a schedule, with outputs and run history you can inspect.                                         |
-| ❌ You have an idea, you have to find your repo, fire up Claude Code, keep a tab open, and babysit it.                                | ✅ Add a task in Paperclip. Your coding agent works on it until it's done. Management reviews their work.                              |
+| ❌ Aynı anda 20 Claude Code sekmesi açık ve hangisinin ne yaptığını takip edemiyorsunuz. Yeniden başlatınca her şey kayboluyor.                              | ✅ Görevler bilet tabanlıdır, konuşmalar işlenmiş şekilde tutulur ve yeniden başlatma sonrası oturumlar korunur.                                                |
+| ❌ Botunuza aslında ne üzerinde çalıştığınızı hatırlatmak için birkaç yerden manuel bağlam topluyorsunuz.                                     | ✅ Bağlam görevden projelere ve şirket hedeflerine kadar akar — ajan her zaman ne yapacağını ve nedenini bilir.                  |
+| ❌ Ajan yapılandırma klasörleri dağınık ve görev yönetimi, iletişim ve ajanlar arası koordinasyonu yeniden icat ediyorsunuz. | ✅ Paperclip, kuruluş şemaları, biletleme, yetkilendirme ve yönetişim dahil her şeyi hazır sunar — böylece bir kasa betiği değil, şirket yönetirsiniz. |
+| ❌ Kaçak döngüler yüzlerce dolar değerinde token israf eder ve ne olduğunu anlamadan kotanızı tüketir.                           | ✅ Harcama takibi, bütçe uyarıları ve otomatik durdurmalar, devam eden işlerin maliyetini kontrol etmenize yardım eder.                                       |
+| ❌ Müşteri desteği, sosyal medya, raporlar gibi tekrarlayan işler için manuel olarak tetikleme yapıyorsunuz.                        | ✅ Rutinler programlanmış zamanlarda atanmış görevler oluşturur, çıktılar ve çalışma geçmişi incelemeye açıktır.                                         |
+| ❌ Bir fikriniz var, repo'yu bulup Claude Code'u başlatmanız, sekmeyi açık tutmanız ve onu sürekli izlemelisiniz.                                | ✅ Paperclip'e bir görev ekleyin. Kodlama ajanınız işi bitene kadar çalışır. Yönetim çalışmanın sonucunu inceler.                              |
 
 <br/>
 
-## Why Paperclip is special
+## Paperclip neden özel
 
-Paperclip handles the hard orchestration details correctly.
+Paperclip, zor orkestrasyon detaylarını doğru şekilde yönetir.
 
 |                                   |                                                                                                               |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Atomic task checkout.**         | A single assignee and execution locks prevent competing runs from claiming the same task.                    |
-| **Persistent work context.**      | Tasks, comments, and documents stay in Paperclip. Supporting adapters resume saved sessions across runs.       |
-| **Runtime skill injection.**      | Agents can learn Paperclip workflows and project context at runtime, without retraining.                      |
-| **Governance with rollback.**     | Approval gates are enforced, config changes are revisioned, and bad changes can be rolled back safely.        |
-| **Accountable connections.**      | Human access, agent eligibility, and gateway action permissions are separate controls. Approve a call once or save a revocable rule. |
-| **Goal-aware execution.**         | Linked tasks and projects carry goal ancestry so agents see the "why," not just a title.                      |
-| **Portable company templates.**   | Export/import orgs, agents, and skills with secret scrubbing and collision handling.                          |
-| **Organization boundaries.**      | Company-scoped access checks keep each organization's work, agents, and activity separate within one deployment. |
+| **Atomik görev checkout.**         | Tek bir atanan kullanıcı ve çalışma kilidi, aynı görevi başkasının talep etmesini engeller.                   |
+| **Kalıcı çalışma bağlamı.**      | Görevler, yorumlar ve dokümanlar Paperclip içinde kalır. Desteklenen bağdaştırıcılar çalıştırmaları yeniden sürdürür.       |
+| **Çalışma zamanı beceri enjeksiyonu.**      | Ajanlar, eğitim almadan Paperclip iş akışlarını ve proje bağlamını çalışma zamanında öğrenebilir.                      |
+| **Yönetişim ve geri alma.**     | Onay kapıları uygulanır, yapılandırma değişiklikleri sürümleme ile kaydedilir ve kötü değişiklikler güvenli şekilde geri alınabilir.        |
+| **Hesap verebilir bağlantılar.**      | İnsan erişimi, ajan uygunluğu ve ağ geçidi eylemi izinleri ayrı kontrollerdir. Bir çağrıyı bir kez onaylayın ya da geri alınabilir kural kaydedin. |
+| **Hedef bilincine sahip yürütme.**         | Bağlı görevler ve projeler hedef soy ağacını taşırlar; ajan sadece başlık değil “neden” görür.                      |
+| **Taşınabilir şirket şablonları.**   | Organizasyonları, ajanları ve becerileri sır temizleme ve çakışma yönetimi ile dışa aktarın/ithal edin.                          |
+| **Organizasyon sınırları.**      | Şirket kapsamlı erişim kontrolleri, tek dağıtım içinde her kuruluşun işi, ajanı ve etkinlik geçmişini ayırır. |
 
 <br/>
 
-## What's Under the Hood
+## Altında ne var
 
-Paperclip is a full control plane, not a wrapper. Before you build any of this yourself, know that it already exists:
+Paperclip, basit bir sarmalayıcı değil, tam bir kontrol düzlemidir. Kendi başınıza bunu kurmadan önce şunu bilin: bu zaten mevcut:
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
 │                       PAPERCLIP SERVER                       │
 │                                                              │
 │  ┌───────────┐  ┌───────────┐  ┌───────────┐  ┌───────────┐  │
-│  │Identity & │  │  Work &   │  │ Heartbeat │  │Governance │  │
-│  │  Access   │  │   Tasks   │  │ Execution │  │& Approvals│  │
+│  │Kimlik ve │  │  İş &   │  │ Kalp      │  │Yönetim  │  │
+│  │ Erişim   │  │  Görevler │  │ Atışı     │  │& Onaylar│  │
 │  └───────────┘  └───────────┘  └───────────┘  └───────────┘  │
 │                                                              │
 │  ┌───────────┐  ┌───────────┐  ┌───────────┐  ┌───────────┐  │
-│  │ Org Chart │  │Workspaces │  │  Plugins  │  │  Budget   │  │
-│  │ & Agents  │  │ & Runtime │  │           │  │ & Costs   │  │
+│  │ Organizasyon │  │Çalışma    │  │ Eklentiler │  │ Bütçe    │  │
+│  │ Şeması &   │  │ Alanı &    │  │           │  │ & Maliyet│  │
+│  │ Ajanlar    │  │ Çalışma Z.│  │           │  │          │  │
 │  └───────────┘  └───────────┘  └───────────┘  └───────────┘  │
 │                                                              │
 │  ┌───────────┐  ┌───────────┐  ┌───────────┐  ┌───────────┐  │
-│  │ Routines  │  │ Secrets & │  │ Activity  │  │  Company  │  │
-│  │& Schedules│  │  Storage  │  │ & Events  │  │Portability│  │
+│  │ Rutinler  │  │ Sırlar & │  │ Etkinlik  │  │ Şirket   │  │
+│  │& Zamanlama│  │ Depolama │  │ & Olaylar │  │ Taşınabilirliği│  │
 │  └───────────┘  └───────────┘  └───────────┘  └───────────┘  │
 └──────────────────────────────────────────────────────────────┘
          ▲              ▲              ▲              ▲
    ┌─────┴─────┐  ┌─────┴─────┐  ┌─────┴─────┐  ┌─────┴─────┐
    │  Claude   │  │   Codex   │  │   CLI     │  │ HTTP/web  │
-   │   Code    │  │           │  │  agents   │  │   bots    │
+   │   Code    │  │           │  │  ajanlar   │  │   botlar  │
    └───────────┘  └───────────┘  └───────────┘  └───────────┘
 ```
 
-### The Systems
+### Sistemler
 
 <table>
 <tr>
 <td width="50%">
 
-**Identity & Access** — Two deployment modes (trusted local or authenticated), human roles and permissions, agent API keys, short-lived run JWTs, company memberships, and invite flows. Responsible-user attribution follows work through delegation and supported managed connections.
+**Kimlik ve Erişim** — İki dağıtım modu (güvenilir yerel veya kimlik doğrulamalı), insan roller ve izinler, ajan API anahtarları, kısa ömürlü çalışma JWT'leri, şirket üyelikleri ve davet akışları. Sorumlu kullanıcının kimliği, görev devri ve desteklenen yönetilen bağlantılar boyunca çalışmayı takip eder.
 
 </td>
 <td width="50%">
 
-**Org Chart & Agents** — Agents have roles, titles, reporting lines, permissions, and budgets. Adapter examples match the diagram: Claude Code, Codex, CLI agents such as Cursor/Gemini/bash, HTTP/webhook bots such as OpenClaw, and external adapter plugins. If it can receive a heartbeat, it's hired.
+**Organizasyon Şeması & Ajanlar** — Ajanların roller, unvanlar, raporlama hatları, izinleri ve bütçeleri vardır. Örnek bağdaştırıcılar diyagramla eşleşir: Claude Code, Codex, Cursor/Gemini/bash gibi CLI ajanları, OpenClaw gibi HTTP/webhook botları ve harici bağdaştırıcı eklentileri. Bir kalp atışı alabiliyorsa, işe alınır.
 
 </td>
 </tr>
 <tr>
 <td>
 
-**Work & Task System** — Issues carry company/project/goal/parent links, atomic checkout with execution locks, first-class blocker dependencies, comments, documents, attachments, work products, labels, and inbox state. Search across work, review document revisions, and leave anchored feedback.
+**İş & Görev Sistemi** — Sorunlar şirket/proje/hedef/üst bağlantılarına sahip olur, çalışma kilitleriyle atomik checkout yapılır, birinci sınıf engel bağımlılıkları vardır, yorumlar, belgeler, ekler, iş ürünleri, etiketler ve gelen kutusu durumları bulunur. İşler arasında arama yapın, belge revizyonlarını inceleyin ve belgelerde sabitlenmiş geri bildirim bırakın.
 
 </td>
 <td>
 
-**Heartbeat Execution** — DB-backed wakeup queue with coalescing, budget checks, workspace resolution, secret injection, skill loading, and adapter invocation. Runs produce logs, usage records, and adapter-specific session state. Bounded recovery handles supported failures and surfaces cases that need human action.
-
-</td>
-</tr>
-<tr>
-<td>
-
-**Workspaces & Runtime** — Project repositories and workspaces, optional isolated execution workspaces (git worktrees, operator branches), and runtime services (dev servers, preview URLs). Sandbox providers extend execution beyond the local host; availability depends on the configured environment and adapter.
-
-</td>
-<td>
-
-**Governance & Approvals** — Board approval workflows, execution policies with review/approval stages, decision tracking, budget hard-stops, and agent pause/resume/terminate. Configured task reviews govern completion; connection action approvals govern calls through the tool gateway.
+**Kalp Atışı Çalıştırma** — Veritabanı tabanlı uyandırma kuyruğu, birleştirme, bütçe kontrolleri, çalışma alanı çözümleme, gizli bilgi enjeksiyonu, beceri yükleme ve bağdaştırıcı çağrısı. Çalıştırmalar günlükler, kullanım kayıtları ve bağdaştırıcıya özel oturum durumları üretir. Sınırlı kurtarma, desteklenen hataları yönetir ve insan müdahalesi gerektiren durumları ortaya çıkarır.
 
 </td>
 </tr>
 <tr>
 <td>
 
-**Budget & Cost Control** — Token and cost tracking by company, agent, project, goal, issue, provider, and model. Scoped budget policies with warning thresholds and hard stops. Enforcement uses recorded spend; usage reporting and in-flight work can delay a stop.
+**Çalışma Alanları & Çalışma Zamanı** — Proje depoları ve çalışma alanları, isteğe bağlı izole çalışma alanları (git worktree'lar, operatör dalları) ve çalışma zamanı servisleri (geliştirme sunucuları, önizleme URL'leri). Kutuya alma sağlayıcıları çalıştırmayı yerel ana bilgisayardan öteye taşır; kullanılabilirlik yapılandırılmış ortama ve bağdaştırıcıya bağlıdır.
 
 </td>
 <td>
 
-**Routines & Schedules** — Recurring tasks with cron, webhook, and API triggers. Concurrency and catch-up policies. Each routine execution creates a tracked issue and wakes the assigned agent — no manual kick-offs needed.
-
-</td>
-</tr>
-<tr>
-<td>
-
-**[Plugins](https://docs.paperclip.ing/administration/plugins/)** — Instance-wide plugin system with out-of-process workers, capability-gated host services, job scheduling, tool exposure, and UI contributions. Extend Paperclip without forking it.
-
-</td>
-<td>
-
-**Secrets & Storage** — Company secrets and per-person secret values, encrypted credential storage, local or S3-compatible file storage, attachments, and work products. Secret references supply credentials to authorized runs without copying values into ordinary agent configuration.
+**Yönetişim & Onaylar** — Kurul onay iş akışları, inceleme/onay aşamalarıyla yürütme politikaları, karar takibi, bütçe katı durdurmaları ve ajan duraklatma/yeniden başlatma/durdurma. Yapılandırılmış görev incelemeleri tamamlanmayı yönetir; bağlantı eylem onayları araç ağ geçidinden yapılan çağrıları yönetir.
 
 </td>
 </tr>
 <tr>
 <td>
 
-**Activity & Events** — Mutating actions, heartbeat state changes, cost events, approvals, comments, and work products are recorded as durable activity so operators can audit what happened and why.
+**Bütçe & Maliyet Kontrolü** — Şirket, ajan, proje, hedef, görev, sağlayıcı ve model bazında token ve maliyet takibi. Uyarı eşiklerine ve katı durdurmalara sahip kapsamlı bütçe politikaları. Zorunlu kural, kaydedilen harcamalara dayanır; kullanım raporlaması ve devam eden işler durdurmayı geciktirebilir.
 
 </td>
 <td>
 
-**[Company Portability](https://docs.paperclip.ing/guides/power/export-import/)** — Preview, export, and import organization packages with agents, skills, and optional projects, routines, tasks, and attachments. Referenced secret values are omitted; review packages before sharing because plain environment values and local paths can remain. Packages share an operating setup; full-instance recovery uses backups.
+**Rutinler & Zamanlama** — Cron, webhook ve API tetiklemeleriyle tekrarlayan görevler. Eşzamanlılık ve yakalama politikaları. Her rutin çalıştırması izlenen bir sorun oluşturur ve atanmış ajanı uyandırır — manuel tetikleme gerekmez.
+
+</td>
+</tr>
+<tr>
+<td>
+
+**[Eklentiler](https://docs.paperclip.ing/administration/plugins/)** — İşlem dışı çalışanlar, yetenek kapısı ile ana bilgisayar servisleri, görev planlama, araç açıklaması ve UI katkıları içeren örnek genel eklenti sistemi. Paperclip'i çatallamadan genişletin.
+
+</td>
+<td>
+
+**Sırlar & Depolama** — Şirket sırları ve kişisel kullanıcı değerleri, şifrelenmiş kimlik bilgisi depolama, yerel veya S3 uyumlu dosya depolama, ekler ve iş ürünleri. Gizli başvurular, değerleri sıradan ajan yapılandırmasına kopyalamadan yetkili çalıştırmalara kimlik bilgisi sağlar.
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Etkinlik & Olaylar** — Değiştiren eylemler, kalp atışı durum değişiklikleri, maliyet olayları, onaylar, yorumlar ve iş ürünleri dayanıklı etkinlik olarak kaydedilir; böylece operatörler ne olduğunu ve nedenini denetleyebilir.
+
+</td>
+<td>
+
+**[Şirket Taşınabilirliği](https://docs.paperclip.ing/guides/power/export-import/)** — Ajanlar, beceriler ve isteğe bağlı projeler, rutinler, görevler ve eklerle organisation paketlerini önizleyin, dışa aktarın ve içe aktarın. Başvurulan gizli değerler çıkarılır; paylaşmadan önce paketleri inceleyin çünkü düz ortam değişkenleri ve yerel yollar kalabilir. Paketler bir çalışma ortamını paylaşır; tam kurulum geri yükleme için yedeklemeler kullanılır.
 
 </td>
 </tr>
@@ -330,42 +331,40 @@ Paperclip is a full control plane, not a wrapper. Before you build any of this y
 
 <br/>
 
-## What Paperclip is not
+## Paperclip ne değildir
 
 |                              |                                                                                                                      |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| **Not just a chatbot.**      | Conversations stay attached to tasks, plans, decisions, and outputs. Experimental Agent Chat can hand work off to assigned tasks.    |
-| **Not an agent framework.**  | We don't tell you how to build agents. We tell you how to run a company made of them.                                |
-| **Not just a workflow builder.** | Routines and experimental pipelines operate within an organization, with roles, goals, budgets, and governance.                  |
-| **Not a prompt manager.**    | Agents bring their own prompts, models, and runtimes. Paperclip manages the organization they work in.               |
-| **Not limited to one agent.** | Start with one agent and grow into a team with shared skills, delegation, and review.                                              |
-| **Not only for code review.** | Coding and PR review fit alongside research, operations, content, and other work.                                                  |
+| **Sadece bir chatbot değildir.**      | Sohbetler görevler, planlar, kararlar ve çıktılarla yakından ilişkilidir. Deneysel Ajan Sohbeti, atanmış görevlere işi devredebilir.    |
+| **Bir ajan çerçevesi değildir.**  | Ajan nasıl inşa edilir diye size söylemeyiz. Size onları içeren bir şirketi nasıl yöneteceğinizi söyleriz.                                |
+| **Yalnızca iş akışı oluşturucu değildir.** | Rutinler ve deneysel hatlar, roller, hedefler, bütçeler ve yönetişimle bir organizasyon içinde çalışır.                  |
+| **Sadece bir prompt yöneticisi değildir.**    | Ajanlar kendi prompt'larını, modellerini ve çalışma zamanlarını getirir. Paperclip, içinde çalıştıkları organizasyonu yönetir.               |
+| **Tek bir ajana bağlı değildir.** | Bir ajandan başlayıp paylaşılan beceriler, yetkilendirme ve inceleme ile bir ekibe dönüşebilirsiniz.                                              |
+| **Yalnızca kod incelemesi için değildir.** | Kodlama ve PR incelemesi, araştırma, operasyon, içerik ve diğer işler gibi işleri yan yana barındırır.                                                  |
 
 <br/>
 
-## Quickstart
+## Hızlı Başlangıç
 
-Open source. Self-hosted. No Paperclip account required. Follow the [guided quickstart](https://docs.paperclip.ing/guides/getting-started/five-minute-path/) to set up your first agent.
+Açık kaynak. Kendi sunucunuzda çalışır. Paperclip hesabı gerekmez. İlk ajanınızı kurmak için [rehberli hızlı başlangıç](https://docs.paperclip.ing/guides/getting-started/five-minute-path/) yolunu izleyin.
 
-### Just ask your agent to install Paperclip
+### Sadece ajanınıza Paperclip kurdurun
 
-Share the [installation guide](https://docs.paperclip.ing/reference/cli/installation/) with your agent.
+Ajanınıza [kurulum rehberini](https://docs.paperclip.ing/reference/cli/installation/) paylaşın.
 
-### Or install it yourself
+### Ya da kendiniz kurun
 
-With **Node.js 24.11 or newer** installed:
+**Node.js 24.11 veya daha yeni** yüklü olduğunda:
 
 ```bash
 npx paperclipai@latest onboard --yes
 ```
 
-The CLI runs from npm's cache; your instance configuration and data persist locally.
+CLI npm önbelleğinden çalışır; örnek yapılandırmanız ve verileriniz yerelde kalır.
 
-See the [installation guide](https://docs.paperclip.ing/reference/cli/installation/) for managed installs, pinned versions, canary and git-ref installs, updates, rollback, service management, and uninstalling.
+Yönetilen kurulumlar, sabit sürümler, canary ve git-ref kurulumları, güncellemeler, geri alma, servis yönetimi ve kaldırma işlemleri için [kurulum rehberine](https://docs.paperclip.ing/reference/cli/installation/) bakın.
 
-For an isolated manual test instance that is already initialized with a CEO
-agent, use `test-drive`. It stays in the foreground, never installs a service
-or creates a first task, and opens the browser only after setup succeeds:
+İzole, önceden başlatılmış bir manuel test örneği için, CEO ajanı önceden ayarlanmış şekilde `test-drive` kullanın. Bu mod arka planda çalışır, servis kurmaz ve ilk görev oluşturmaz; kurulum başarıyla tamamlandıktan sonra yalnızca tarayıcıyı açar:
 
 ```bash
 ANTHROPIC_API_KEY=... npx paperclipai test-drive
@@ -375,40 +374,36 @@ OPENROUTER_API_KEY=... npx paperclipai test-drive \
   --model openrouter/anthropic/claude-sonnet-4.5
 ```
 
-Each run without `--data-dir` gets a unique, retained temporary directory; its
-absolute path is printed at startup. Pass `--data-dir` to reuse one, or
-`--no-browser` to leave the initialized instance unopened. When invoked from a
-linked Git worktree, `test-drive` also enables task execution in that worktree.
-See the [test-drive guide](https://docs.paperclip.ing/reference/cli/test-drive/) for credential and
-reuse behavior.
+`--data-dir` verilmediğinde her çalıştırma benzersiz, korunmuş bir geçici dizin alır; mutlak yol başlangıçta yazdırılır. Tekrar kullanmak için `--data-dir` verin ya da `--no-browser` ile başlatılan örneği açılmadan bırakın. Bağlı bir Git çalışma ağacından çağrıldığında `test-drive`, o ağacında görev çalıştırmayı da etkinleştirir.
+Kimlik doğrulama ve yeniden kullanım davranışı için [test-drive rehberine](https://docs.paperclip.ing/reference/cli/test-drive/) bakın.
 
-> **Troubleshooting: private npm registry `.npmrc`**
+> **Sorun giderme: özel npm kayıt defteri `.npmrc`**
 >
-> If this fails with an `E404` for `paperclipai` (or similar) and you use a private npm registry (for example GitHub Packages) via a global `~/.npmrc`, `npx` may be resolving `paperclipai` against that private registry instead of the public npm registry.
+> Bu işlem `paperclipai` için `E404` ile başarısız olursa (veya benzeri bir hata alınırsa) ve küresel `~/.npmrc` üzerinden özel bir npm kayıt defteriniz varsa (ör. GitHub Packages), `npx` public npm kayıt defterinin yerine o özel kayıt defterini çözüyor olabilir.
 >
-> Diagnostic:
+> Teşhis:
 >
 > ```bash
 > npm config get registry
 > ```
 >
-> Workaround (cross-platform; force the public npm registry for this command):
+> Çözüm (çoklu platform; bu komut için public npm kayıt defterini zorlayın):
 >
 > ```bash
 > npx --registry https://registry.npmjs.org paperclipai@latest onboard --yes
 > ```
 
-That quickstart path now defaults to trusted local loopback mode for the fastest first run. To start in authenticated/private mode instead, choose a bind preset explicitly:
+Bu hızlı başlangıç yolu artık en hızlı ilk çalıştırma için güvenilir yerel loopback moduna geçer. Bunun yerine kimlik doğrulamalı/özel modda başlatmak için bind ön ayarını açıkça seçin:
 
 ```bash
 npx paperclipai@latest onboard --yes --bind lan
-# or:
+# veya:
 npx paperclipai@latest onboard --yes --bind tailnet
 ```
 
-If you already have Paperclip configured, rerunning `onboard` keeps the existing config in place. Use `npx paperclipai configure` to edit settings.
+Paperclip zaten yapılandırılmışsa, `onboard` tekrar çalıştırıldığında mevcut yapılandırma korunur. Ayarları düzenlemek için `npx paperclipai configure` kullanın.
 
-Or manually:
+Veya manuel olarak:
 
 ```bash
 git clone https://github.com/paperclipai/paperclip.git
@@ -417,177 +412,176 @@ pnpm install
 pnpm dev
 ```
 
-This starts the UI and API at `http://localhost:3100`. An embedded PostgreSQL database is created automatically — no setup required.
+Bu, UI ve API'yi `http://localhost:3100` adresinde başlatır. Gömülü PostgreSQL veritabanı otomatik oluşturulur — ek kurulum gerekmez.
 
-> **Requirements:** Node.js 24.11+, pnpm 9.15+
+> **Gereksinimler:** Node.js 24.11+, pnpm 9.15+
 
-Local Claude and Codex subscription sign-in also needs Python 3 and the
-corresponding provider CLI on the Paperclip host. The Docker image includes them.
+Yerel Claude ve Codex abonelik girişi için ayrıca Python 3 ve Paperclip ana bilgisayarında ilgili sağlayıcı CLI gerekir. Docker görüntüsü bunları içerir.
 
-Source development also builds the native Paperclip Runner when enabled (the self-hosted default). Install a Rust toolchain, or set `PAPERCLIP_RUNNER_BINARY` to a compatible prebuilt runner.
-
-<br/>
-
-## FAQ
-
-**Q: Is this project maintained or just slop?**
-
-**A:** Paperclip is maintained by the [Paperclip team](https://paperclip.ing). We've merged [over 2,700 pull requests](https://github.com/paperclipai/paperclip/pulls?q=is%3Apr+is%3Amerged).
+Kaynak geliştirme ayrıca etkinleştirilmişse yerel Paperclip Runner'ı da oluşturur (kendi barındırmalı varsayılan). Rust araç zincirini kurun ya da `PAPERCLIP_RUNNER_BINARY` ortam değişkenini uyumlu önceden derlenmiş bir çalıştırıcıya ayarlayın.
 
 <br/>
 
-**Q: What does a typical setup look like?**
+## SSS
 
-**A:** Locally, a single Node.js process manages an embedded Postgres and local file storage. For production, point it at your own Postgres and deploy however you like. Configure projects, agents, and goals — the agents take care of the rest.
+**S: Bu proje bakımlı mı, yoksa sadece gereksiz içerik mi?**
 
-For remote access, use authenticated mode with a private-network bind such as Tailscale, or deploy the persistent server with Docker. See [deployment modes](https://docs.paperclip.ing/reference/deploy/deployment-modes/) and the [Docker guide](https://docs.paperclip.ing/reference/deploy/docker/).
-
-<br/>
-
-**Q: Can I run multiple companies?**
-
-**A:** Yes. A single deployment can host multiple organizations with company-scoped data and access checks.
+**C:** Paperclip, [Paperclip ekibi](https://paperclip.ing) tarafından bakımı yapılmaktadır. [2.700'den fazla pull request'i](https://github.com/paperclipai/paperclip/pulls?q=is%3Apr+is%3Amerged) birleştirdik.
 
 <br/>
 
-**Q: How is Paperclip different from agents like OpenClaw or Claude Code?**
+**S: Tipik bir kurulum nasıl görünür?**
 
-**A:** Paperclip _uses_ those agents. It orchestrates them into a company — with org charts, budgets, goals, governance, and accountability.
+**C:** Yerelde, tek bir Node.js süreci gömülü Postgres ve yerel dosya depolamasını yönetir. Üretim ortamında kendi Postgres'inize işaret edin ve istediğiniz şekilde dağıtın. Projeleri, ajanları ve hedefleri yapılandırın — ajanlar geri kalanı yapar.
 
-<br/>
-
-**Q: Why should I use Paperclip instead of just pointing my OpenClaw to Asana or Trello?**
-
-**A:** Agent orchestration has subtleties in how you coordinate who has work checked out, how to maintain sessions, monitoring costs, establishing governance - Paperclip does this for you.
-
-(Bring-your-own-ticket-system is on the Roadmap)
+Uzaktan erişim için Tailscale gibi özel ağ bağlayıcısı ile kimlik doğrulamalı mod kullanın ya da kalıcı sunucuyu Docker ile dağıtın. [dağıtım modlarına](https://docs.paperclip.ing/reference/deploy/deployment-modes/) ve [Docker rehberine](https://docs.paperclip.ing/reference/deploy/docker/) bakın.
 
 <br/>
 
-**Q: Do agents run continuously?**
+**S: Birden fazla şirket çalıştırabilir miyim?**
 
-**A:** Agents wake for assigned work and follow-up messages. Optional timer heartbeats let them check for work periodically; routines create recurring tasks on their own schedules. You can also connect externally running agents such as OpenClaw. A mention alone does not assign work or wake another agent.
+**C:** Evet. Tek bir dağıtım birden fazla kuruluşu barındırabilir; her kuruluş için veri ve erişim denetimleri ayrı olur.
 
 <br/>
 
-## Development
+**S: Paperclip, OpenClaw veya Claude Code gibi ajanlardan nasıl farklıdır?**
+
+**C:** Paperclip bu ajanları _kullanır_. Bunları bir şirket gibi koordine eder — kuruluş şemaları, bütçeler, hedefler, yönetişim ve hesap verebilirlik ile.
+
+<br/>
+
+**S: Neden OpenClaw'ı Asana veya Trello'ya bağlayıp işin tümünü yönetmek yerine Paperclip kullanayım?**
+
+**C:** Ajan orkestrasyonunun incelikleri vardır: kimin işi aldığını koordin etmek, oturumları nasıl korumak, maliyetleri izlemek, yönetişim kurmak — Paperclip bunu sizin için yapar.
+
+(Yol haritasında "getiren kendi bilet sistemi" var.)
+
+<br/>
+
+**S: Ajanlar sürekli çalışıyor mu?**
+
+**C:** Ajanlar atanmış iş ve takip mesajları için uyanır. İsteğe bağlı zamanlayıcı kalp atışları, periyodik olarak iş kontrol etmesini sağlar; rutinler kendi zamanlamalarında tekrarlayan görevler oluşturur. OpenClaw gibi harici çalışan ajanları da bağlayabilirsiniz. Sadece bahsetmek başka bir ajana iş atamaz veya uyandırmaz.
+
+<br/>
+
+## Geliştirme
 
 ```bash
-pnpm dev              # Full dev (API + UI, watch mode)
-pnpm dev:once         # Full dev without file watching
-pnpm dev:server       # Server only
-pnpm dev:mobile       # Serve prebuilt UI on :3101 for phones/tablets (proxies /api → :3100)
-pnpm dev:both         # Run `pnpm dev` and `pnpm dev:mobile` together
-pnpm build            # Build all
-pnpm typecheck        # Type checking
-pnpm test             # Cheap default test run (Vitest only)
-pnpm test:watch       # Vitest watch mode
-pnpm test:e2e         # Playwright browser suite
-pnpm db:generate      # Generate DB migration
-pnpm db:migrate       # Apply migrations
+pnpm dev              # Tam geliştirme (API + UI, izleme modu)
+pnpm dev:once         # Dosya izleme olmadan tam geliştirme
+pnpm dev:server       # Sadece sunucu
+pnpm dev:mobile       # :3101 üzerinde önceden hazırlanmış UI sunumu; /api → :3100 proxy'leri
+pnpm dev:both         # `pnpm dev` ve `pnpm dev:mobile` birlikte çalıştırılır
+pnpm build            # Tümünü derle
+pnpm typecheck        # Tip denetimi
+pnpm test             # Ucuz varsayılan test çalıştırması (yalnızca Vitest)
+pnpm test:watch       # Vitest izleme modu
+pnpm test:e2e         # Playwright tarayıcı testi
+pnpm db:generate      # Veritabanı migrasyonu oluşturur
+pnpm db:migrate       # Migrasyonları uygular
 ```
 
-`pnpm test` does not run Playwright. Browser suites stay separate and are typically run only when working on those flows or in CI.
+`pnpm test`, Playwright çalıştırmaz. Tarayıcı testleri ayrı tutulur ve genellikle yalnızca bu akışlar üzerinde çalışırken veya CI'da çalıştırılır.
 
-See [doc/DEVELOPING.md](doc/DEVELOPING.md) for the full development guide.
-
-<br/>
-
-## Roadmap
-
-- ✅ Plugin system (e.g. add a knowledge base, custom tracing, queues, etc)
-- ✅ Get OpenClaw / claw-style agent employees
-- ✅ companies.sh - import and export entire organizations
-- ✅ Easy AGENTS.md configurations
-- ✅ Skills Manager, Skill Studio & Skills Store
-- ✅ Scheduled Routines
-- ✅ Better Budgeting
-- ✅ Agent Reviews and Approvals
-- ✅ Multiple Human Users
-- ✅ Cloud / Sandbox agents (e2b, Cloudflare, Daytona, Modal, Novita, self-hosted Kubernetes)
-- ✅ Artifacts & Work Products
-- ✅ Deep Planning (planning mode, revisioned plans, plan approvals)
-- ✅ Enforced Outcomes (watchdogs, recovery actions, review gates)
-- ✅ MCP Tool Gateway & Apps (governed tool access)
-- ✅ Secrets Manager with per-agent access
-- ✅ Activity log & action attribution
-- ✅ Self-healing runs & automatic recovery
-- ✅ Agent evals & feedback
-- ✅ Connected Apps
-- ✅ Personal & Shared AI Accounts
-- ✅ Shared Agents Use Personal GitHub Identities
-- ✅ Skill Version History & Restore
-- ✅ Document Comments & Revision History
-- ✅ Company-Wide Search
-- ✅ Multi-Model & Multi-Harness Teams
-- 🟡 Memory / Knowledge
-- ⚪ MAXIMIZER MODE
-- ⚪ Work Queues
-- ⚪ Self-Organization
-- ⚪ Automatic Organizational Learning
-- 🟡 Agent Chat
-- 🟡 Cloud deployments
-- ⚪ Desktop App
-- ⚪ Bring-your-own-ticket-system (Asana / Linear / Jira as on-ramps)
-
-This is the short roadmap preview. See the full roadmap in [ROADMAP.md](ROADMAP.md).
+Tam geliştirme kılavuzu için [doc/DEVELOPING.md](doc/DEVELOPING.md) dosyasına bakın.
 
 <br/>
 
-## Community & Plugins
+## Yol Haritası
 
-Find Plugins and more at [awesome-paperclip](https://github.com/gsxdsm/awesome-paperclip)
+- ✅ Eklenti sistemi (ör. bilgi tabanı, özel izleme, kuyruklar vb.)
+- ✅ OpenClaw / claw tarzı ajan çalışanları
+- ✅ companies.sh - tüm organizasyonları içe/dışa aktar
+- ✅ Kolay AGENTS.md yapılandırmaları
+- ✅ Beceri Yöneticisi, Beceri Stüdyosu ve Beceri Mağazası
+- ✅ Zamanlanmış Rutinler
+- ✅ Gelişmiş Bütçeleme
+- ✅ Ajan İncelemeleri ve Onayları
+- ✅ Çoklu İnsan Kullanıcısı
+- ✅ Bulut / Sandbox ajanları (e2b, Cloudflare, Daytona, Modal, Novita, kendi barındırmalı Kubernetes)
+- ✅ Ürünler & İş Çıktıları
+- ✅ Derin Planlama (planlama modu, revizyonlu planlar, plan onayları)
+- ✅ Zorunlu Sonuçlar (bekçi, kurtarma eylemleri, inceleme kapıları)
+- ✅ MCP Araç Ağ Geçidi ve Uygulamalar (yönetilen araç erişimi)
+- ✅ Her Ajan için ayrı erişim ile Gizli Bilgi Yöneticisi
+- ✅ Etkinlik günlüğü & eylem atfetme
+- ✅ Kendini iyileştiren çalıştırmalar & otomatik kurtarma
+- ✅ Ajan değerlendirmeleri & geri bildirim
+- ✅ Bağlı Uygulamalar
+- ✅ Kişisel & Paylaşılan Yapay Zeka Hesapları
+- ✅ Paylaşılan Ajanlar Kişisel GitHub Kimliklerini Kullanır
+- ✅ Beceri Sürüm Geçmişi & Geri Yükleme
+- ✅ Belge Yorumları & Revizyon Geçmişi
+- ✅ Şirket Geneli Arama
+- ✅ Çoklu Model & Çoklu Çalışma Zamanı Ekipleri
+- 🟡 Bellek / Bilgi
+- ⚪ MAKSİMİZE MODU
+- ⚪ İş Kuyrukları
+- ⚪ Kendi Kendine Organizasyon
+- ⚪ Otomatik Kurumsal Öğrenme
+- 🟡 Ajan Sohbeti
+- 🟡 Bulut dağıtımları
+- ⚪ Masaüstü Uygulaması
+- ⚪ Kendi bilet sisteminizi getirme (Asana / Linear / Jira as on-ramps)
 
-## Observability
+Bu kısa yol haritası önizlemesidir. Tam yol haritası için [ROADMAP.md](ROADMAP.md) dosyasına bakın.
 
-Paperclip ships with opt-in OpenTelemetry auto-instrumentation for the server (traces only). It activates when `OTEL_EXPORTER_OTLP_ENDPOINT` is set and supports `grpc`, `http/protobuf`, and `http/json` via the standard `OTEL_EXPORTER_OTLP_PROTOCOL` env var. `@opentelemetry/api` is a normal server dependency; the SDK, auto-instrumentation, and exporter packages are optional peer dependencies — install them only if you want tracing. See [doc/observability.md](doc/observability.md) for install commands and the full env-var reference.
+<br/>
 
-Paperclip also ships with opt-in Sentry error monitoring for the server and the browser. Set `SENTRY_DSN_FRONTEND` to activate it for the browser and `SENTRY_DSN_BACKEND` to activate it for the server — each variable is optional, and the legacy `SENTRY_DSN` variable still works as a fallback for either component. The supported server SDK version is `@sentry/node@10.71.0`; it is an optional peer dependency for the server, so install it only if you want error monitoring. The browser SDK, `@sentry/browser`, is pinned to the same exact version. See [doc/observability.md](doc/observability.md#sentry-error-monitoring) for the install command, the privacy settings, and the full default capture set.
+## Topluluk & Eklentiler
 
-## Telemetry
+Eklentileri ve daha fazlasını [awesome-paperclip](https://github.com/gsxdsm/awesome-paperclip) adresinde bulabilirsiniz.
 
-Paperclip collects anonymous usage telemetry to help us understand how the product is used and improve it. No personal information, issue content, prompts, file paths, or secrets are ever collected. Private repository references are hashed with a per-install salt before being sent.
+## Gözlemlenebilirlik
 
-Contributors changing emitted telemetry events should follow the [Telemetry Data Contract](packages/shared/src/telemetry/README.md).
-For proposed first-party events that are not in the generated contract yet, follow [Telemetry Workflow](doc/TELEMETRY_WORKFLOW.md).
+Paperclip, sunucu için isteğe bağlı OpenTelemetry otomatik enstrümantasyonu ile gelir (yalnızca izler). `OTEL_EXPORTER_OTLP_ENDPOINT` ayarlandığında etkinleşir ve standart `OTEL_EXPORTER_OTLP_PROTOCOL` ortam değişkeni ile `grpc`, `http/protobuf` ve `http/json` destekler. `@opentelemetry/api`, normal bir sunucu bağımlılığıdır; SDK, otomatik enstrümantasyon ve taşıyıcı paketler isteğe bağlı peer bağımlılıktır — yalnızca izleme istiyorsanız kurun. Kurulum komutları ve tam ortam değişkeni referansı için [doc/observability.md](doc/observability.md) dosyasına bakın.
 
-Telemetry is **enabled by default** and can be disabled with any of the following:
+Paperclip ayrıca sunucu ve tarayıcı için isteğe bağlı Sentry hata izleme sunar. Tarayıcı için `SENTRY_DSN_FRONTEND`, sunucu için `SENTRY_DSN_BACKEND` ayarlayın; her biri isteğe bağlıdır ve eski `SENTRY_DSN` değişkeni de her iki bileşen için yedek olarak çalışır. Desteklenen sunucu SDK sürümü `@sentry/node@10.71.0`'dır; bu sunucu için isteğe bağlı peer bağımlılıktır, yani yalnızca hata izleme istiyorsanız kurun. Tarayıcı SDK'sı `@sentry/browser` aynı tam sürüme sabitlenmiştir. Kurulum komutu, gizlilik ayarları ve varsayılan yakalama kümesi için [doc/observability.md](doc/observability.md#sentry-error-monitoring) dosyasına bakın.
 
-| Method               | How                                                     |
+## Telemetri
+
+Paperclip, ürünü nasıl kullandığınızı anlamak ve geliştirmek için anonim kullanım telemetrisi toplar. Kişisel bilgi, sorun içeriği, prompt'lar, dosya yolları veya sırlar asla toplanmaz. Özel depo referansları, gönderilmeden önce kurulum başına tuzlanan bir tuzla hashlenir.
+
+Telemetri olaylarını değiştiren katkıda bulunanlar, [Telemetry Data Contract](packages/shared/src/telemetry/README.md) dosyasına uymalıdır.
+Henüz oluşturulmamış ilk taraf olaylar için [Telemetry Workflow](doc/TELEMETRY_WORKFLOW.md) dosyasına bakın.
+
+Telemetri varsayılan olarak **etkin** durumdadır ve aşağıdakilerden herhangi biriyle kapatılabilir:
+
+| Yöntem               | Nasıl                                                     |
 | -------------------- | ------------------------------------------------------- |
-| Environment variable | `PAPERCLIP_TELEMETRY_DISABLED=1`                        |
-| Standard convention  | `DO_NOT_TRACK=1`                                        |
-| CI environments      | Automatically disabled when `CI=true`                   |
-| Config file          | Set `telemetry.enabled: false` in your Paperclip config |
+| Ortam değişkeni | `PAPERCLIP_TELEMETRY_DISABLED=1`                        |
+| Standart kural  | `DO_NOT_TRACK=1`                                        |
+| CI ortamları      | `CI=true` olduğunda otomatik olarak devre dışı bırakılır                   |
+| Yapılandırma dosyası          | Paperclip yapılandırmasında `telemetry.enabled: false` ayarı yapın |
 
-## Contributing
+## Katkıda Bulunma
 
-We welcome contributions. See the [contributing guide](CONTRIBUTING.md) for details.
+Katkılara açığız. Ayrıntılar için [katkı rehberine](CONTRIBUTING.md) bakın.
 
-**[We're hiring](https://paperclip.ing/about/#careers)**
-
-<br/>
-
-## Community
-
-- [Discord](https://discord.gg/m4HZY7xNG3) — Join the community
-- [Twitter / X](https://x.com/papercliping) — Follow updates and announcements
-- [GitHub Issues](https://github.com/paperclipai/paperclip/issues) — bugs and feature requests
-- [GitHub Discussions](https://github.com/paperclipai/paperclip/discussions) — ideas and RFC
+**[İşe alıyoruz](https://paperclip.ing/about/#careers)**
 
 <br/>
 
-## License
+## Topluluk
+
+- [Discord](https://discord.gg/m4HZY7xNG3) — Topluluğa katılın
+- [Twitter / X](https://x.com/papercliping) — Güncellemeleri ve duyuruları takip edin
+- [GitHub Issues](https://github.com/paperclipai/paperclip/issues) — hata ve özellik istekleri
+- [GitHub Discussions](https://github.com/paperclipai/paperclip/discussions) — fikirler ve RFC
+
+<br/>
+
+## Lisans
 
 MIT &copy; 2026 [Paperclip Labs, Inc](https://paperclip.ing)
 
-## Star History
+## Yıldız Geçmişi
 
 <a href="https://www.star-history.com/?repos=paperclipai%2Fpaperclip&type=date&legend=top-left">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&theme=dark&legend=top-left&sealed_token=hFjuwFq41bQD5cevvXVv5cTru2swWRZujwJYKlHhtBh6n0H5-VvJZW2SAlcQKB8u4KxhyEB9JqFg1yccJ8WLv9wPBcoWpWcak4gx0MYTWu_pOs2jKOaDluH7KsLeTKt6DHGkHiN3LsqV9s--MTDQcC6Xl7zV51W0-YezQXo-pVPgoFDFAGf2CY5fiP5Q" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&legend=top-left&sealed_token=hFjuwFq41bQD5cevvXVv5cTru2swWRZujwJYKlHhtBh6n0H5-VvJZW2SAlcQKB8u4KxhyEB9JqFg1yccJ8WLv9wPBcoWpWcak4gx0MYTWu_pOs2jKOaDluH7KsLeTKt6DHGkHiN3LsqV9s--MTDQcC6Xl7zV51W0-YezQXo-pVPgoFDFAGf2CY5fiP5Q" />
-    <img src="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&legend=top-left&sealed_token=hFjuwFq41bQD5cevvXVv5cTru2swWRZujwJYKlHhtBh6n0H5-VvJZW2SAlcQKB8u4KxhyEB9JqFg1yccJ8WLv9wPBcoWpWcak4gx0MYTWu_pOs2jKOaDluH7KsLeTKt6DHGkHiN3LsqV9s--MTDQcC6Xl7zV51W0-YezQXo-pVPgoFDFAGf2CY5fiP5Q" alt="Star History Chart" />
+    <img src="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&legend=top-left&sealed_token=hFjuwFq41bQD5cevvXVv5cTru2swWRZujwJYKlHhtBh6n0H5-VvJZW2SAlcQKB8u4KxhyEB9JqFg1yccJ8WLv9wPBcoWpWcak4gx0MYTWu_pOs2jKOaDluH7KsLeTKt6DHGkHiN3LsqV9s--MTDQcC6Xl7zV51W0-YezQXo-pVPgoFDFAGf2CY5fiP5Q" alt="Yıldız Geçmişi Grafiği" />
   </picture>
 </a>
 
@@ -596,5 +590,5 @@ MIT &copy; 2026 [Paperclip Labs, Inc](https://paperclip.ing)
 ---
 
 <p align="center">
-  <sub>Open source under MIT. Built for people who want to get work done, not babysit agents.</sub>
+  <sub>Açık kaynak MIT lisansı altında. Ajanlara bakıcı gibi davranmak yerine iş yapmayı seven insanlar için tasarlanmıştır.</sub>
 </p>
